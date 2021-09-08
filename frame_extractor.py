@@ -1,11 +1,9 @@
 import os
 import subprocess
-import glob
 import numpy as np
 import pandas as pd
 import av
 from tqdm import tqdm
-from pathlib import Path
 
 
 def generateweights(frame: np.ndarray) -> np.ndarray:
